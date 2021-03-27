@@ -30,7 +30,7 @@ def DownloadCourse(UserName, Password, courseUrl, put_course_name):
     options.set_capability('unhandledPromptBehavior', 'accept')
     # options.add_argument("--headless")
     options.add_argument("ignore-certificate-errors")
-    chromebrowser = 'C:\\Users\\zainshah\\Downloads\\chromedriver_win32\\chromedriver.exe'
+    chromebrowser = 'YOUR_PATH_OF_EXE_FILE\\chromedriver.exe'
     browser = webdriver.Chrome(chromebrowser, chrome_options=options)
 
     browser.get('https://cloudacademy.com/login/')
@@ -40,7 +40,7 @@ def DownloadCourse(UserName, Password, courseUrl, put_course_name):
     password.send_keys(Password)  # password to go in here
     browser.find_element_by_id("loginSubmit").click()
     course_url = courseUrl
-    parent_path = "F:\\cloudAcademy\\"
+    parent_path = "WHERE_TO_STORE_COURSE_CONTENT e.g, F:\\cloudAcademy\\"
     time.sleep(10)
     browser.get(course_url)
     course_dir = parent_path + os.path.basename(course_url)
@@ -116,8 +116,7 @@ courseUrlLabel = Label(tkWindow, text="Complete Course URL ").grid(row=2, column
 courseUrl = StringVar()
 courseUrlEntry = Entry(tkWindow, textvariable=courseUrl).grid(row=2, column=1, padx=10, pady=10)
 
-Label(tkWindow, text="Make Sure to Add Complete Course URL 'https://cloudacademy.com/course/course-name'").grid(row=2,
-                                                                                                                column=2)
+Label(tkWindow, text="Make Sure to Add Complete Course URL 'https://cloudacademy.com/course/course-name'").grid(row=2, column=2)
 validateLogin = partial(validateLogin, username, password, courseUrl)
 
 # login button
