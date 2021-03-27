@@ -21,8 +21,10 @@ pip install urllib3
 pip install wget
 ```
 3. Make changes in code where required e.g, the chromedriver.exe path etc.
+```python
 chromebrowser = 'YOUR_PATH_OF_EXE_FILE\\chromedriver.exe'
 parent_path = "WHERE_TO_STORE_COURSE_CONTENT e.g, F:\\cloudAcademy\\"
+```
 5. Run the python module.
 6. A UI program will open and ask you for Email, Password and Course URL. Course URL should be correct and shouldn't contains slash (/) or any space at the end of URL.
 
