@@ -3,4 +3,8 @@
 This is a utifiliy build by Zain Ul Hassan using Python, Selenium and Tkinter. 
 
 # How to Use
-You need to download this python module and should have below 
+You need to download this python module and should have all the libraries mentioned in requirements.txt file.
+
+1. Download the python module
+2. Make changes in code where required e.g, the chromedriver.exe path etc.
+3. 
