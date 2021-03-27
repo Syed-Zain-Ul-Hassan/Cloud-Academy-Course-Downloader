@@ -1,4 +1,4 @@
-# Cloud-Academy-Course-Downloader
+# Cloud Academy Course Downloader
 
 This is a utifiliy build by @Syed-Zain-Ul-Hassan using Python, Selenium and Tkinter. 
 
