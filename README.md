@@ -1,6 +1,6 @@
 # Cloud-Academy-Course-Downloader
 
-This is a utifiliy build by @syed-zain-ul-hassan using Python, Selenium and Tkinter. 
+This is a utifiliy build by @Syed-Zain-Ul-Hassan using Python, Selenium and Tkinter. 
 
 # How to Use
 You need to download this python module and should have all the libraries mentioned in requirements.txt file.
