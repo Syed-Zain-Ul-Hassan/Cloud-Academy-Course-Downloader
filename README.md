@@ -5,7 +5,8 @@ This is a utiiliy build by @Syed-Zain-Ul-Hassan using Python, Selenium and Tkint
 # How to Use
 You need to download this python module and should have all the libraries mentioned in requirements.txt file.
 
-1. Download the python module
+1. Install [Python](https://www.python.org/downloads/) on your computer
+1. Open the python module [Cloud Academy Course Downloader.py](https://raw.githubusercontent.com/Syed-Zain-Ul-Hassan/Cloud-Academy-DL/main/Cloud%20Academy%20Course%20Downloader.py) in RAW form and save it as .py file.
 2. Insatll the required libraries
 
 ```python
