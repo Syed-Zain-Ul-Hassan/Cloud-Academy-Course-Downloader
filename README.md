@@ -39,7 +39,9 @@ chromebrowser = 'YOUR_PATH_OF_EXE_FILE\\chromedriver.exe'
 10. See below [demo video](https://user-images.githubusercontent.com/37849034/112753934-38efda00-8ff3-11eb-82d1-cfa157dce7fd.mp4).
 
 
-
+<video width="320" height="240" controls>
+  <source src="https://user-images.githubusercontent.com/37849034/112753934-38efda00-8ff3-11eb-82d1-cfa157dce7fd.mp4" type="video/mp4">
+</video>
 
 
 
