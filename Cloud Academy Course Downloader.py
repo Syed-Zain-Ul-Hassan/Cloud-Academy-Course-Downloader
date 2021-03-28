@@ -53,6 +53,7 @@ def DownloadCourse(UserName, Password, courseUrl, put_course_name):
             print("Play button found")
     except NoSuchElementException:
         print("Play button not found")
+        pass
     time.sleep(8)
     for ii in WebDriverWait(browser, 10).until(
             EC.presence_of_all_elements_located((By.XPATH, "//*[@class='sc-1y1qaby-3 bmoGTH']"))):
@@ -65,6 +66,7 @@ def DownloadCourse(UserName, Password, courseUrl, put_course_name):
                 print("Play button found")
         except NoSuchElementException:
             print("Play button not found")
+            pass
         time.sleep(8)
         WebDriverWait(browser, 10).until(
             EC.presence_of_element_located((By.XPATH, "//video[contains(@id, 'vjs_video')]")))
@@ -90,7 +92,9 @@ def DownloadCourse(UserName, Password, courseUrl, put_course_name):
         urllib.request.urlretrieve(url, fullfilename)
         time.sleep(15)
     browser.close()  # closes the browser
-
+    print("================")
+    print("Course Downloaded")
+    print("================")
 
 def validateLogin(username, password, courseUrl):
     send_details(username.get(), password.get(), courseUrl.get())
