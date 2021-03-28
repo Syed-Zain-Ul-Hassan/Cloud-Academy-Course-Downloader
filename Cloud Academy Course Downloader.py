@@ -1,7 +1,6 @@
 from selenium.common.exceptions import NoSuchElementException
 import time
 import os
-import re
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 import urllib.request
@@ -77,8 +76,8 @@ def DownloadCourse(UserName, Password, courseUrl, put_course_name):
         print(tag)
         n = 0  # Specify the index of video element in the web page
         url = tag[n]['src']  # get the src attribute of the video
-
         print(url)
+        import re
         my_new_string = re.sub('[^ a-zA-Z0-9]', '', browser.title)
         time.sleep(2)
         os.makedirs(course_dir + '\\' + my_new_string, exist_ok=True)
