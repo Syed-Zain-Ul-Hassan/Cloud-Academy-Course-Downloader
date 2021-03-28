@@ -30,7 +30,7 @@ def DownloadCourse(UserName, Password, courseUrl, put_course_name):
     options.set_capability('unhandledPromptBehavior', 'accept')
     # options.add_argument("--headless")
     options.add_argument("ignore-certificate-errors")
-    chromebrowser = 'YOUR_PATH_OF_EXE_FILE\\chromedriver.exe'
+    chromebrowser = 'YOUR_PATH_OF_EXE_FILE\\chromedriver.exe'       #--------------ChromeDriver Path-----------
     browser = webdriver.Chrome(chromebrowser, chrome_options=options)
 
     browser.get('https://cloudacademy.com/login/')
@@ -40,7 +40,7 @@ def DownloadCourse(UserName, Password, courseUrl, put_course_name):
     password.send_keys(Password)  # password to go in here
     browser.find_element_by_id("loginSubmit").click()
     course_url = courseUrl
-    parent_path = "WHERE_TO_STORE_COURSE_CONTENT e.g, F:\\cloudAcademy\\"
+    parent_path = "F:\\cloudAcademy\\"
     time.sleep(10)
     browser.get(course_url)
     course_dir = parent_path + os.path.basename(course_url)
