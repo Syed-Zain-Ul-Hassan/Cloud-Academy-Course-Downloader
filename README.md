@@ -36,9 +36,7 @@ chromebrowser = 'YOUR_PATH_OF_EXE_FILE\\chromedriver.exe'
 
 8. Chrome browser will open, and chrome driver will login you with your provided credentials. Then chrome driver will open course and will start downloading the videos.
 9. Course content will be downloaded in 'C:\\cloudAcademy' folder (you can specify your desired folder in code).
-10. See below demo video. 
-
-https://user-images.githubusercontent.com/37849034/112753934-38efda00-8ff3-11eb-82d1-cfa157dce7fd.mp4
+10. See below [demo video](https://user-images.githubusercontent.com/37849034/112753934-38efda00-8ff3-11eb-82d1-cfa157dce7fd.mp4).
 
 
 
