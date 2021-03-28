@@ -8,7 +8,7 @@ You need to download this python module and should have all the libraries mentio
 1. Install [Python](https://www.python.org/downloads/) on your computer
 2. Open the python module [Cloud Academy Course Downloader.py](https://raw.githubusercontent.com/Syed-Zain-Ul-Hassan/Cloud-Academy-DL/main/Cloud%20Academy%20Course%20Downloader.py) in RAW form and save it as .py file in your desired folder.
 3. You should have [Google Chrome](https://www.google.com/chrome/thank-you.html?brand=BNSD&statcb=1&installdataindex=empty&defaultbrowser=0#) installed in your computer, then check the version of your chrome and download the relevent [ChromeDriver](https://chromedriver.chromium.org/downloads). 
-4. Insatll below required python libraries. For this open [Install Pip Packages.cmd](https://raw.githubusercontent.com/Syed-Zain-Ul-Hassan/Cloud-Academy-DL/2533f9dfaa4d12d3f91eebbb77021635e7be80ab/Install%20Pip%20Packages.cmd) CMD file and save it as .cmd file in your desired folder.
+4. Insatll below required python libraries. For this open [Install Pip Packages.cmd](https://raw.githubusercontent.com/Syed-Zain-Ul-Hassan/Cloud-Academy-DL/2533f9dfaa4d12d3f91eebbb77021635e7be80ab/Install%20Pip%20Packages.cmd) CMD file and save it as .cmd file in your desired folder. After downloading python (with pip), simply running it will install all required packages.
 
 ```python
 pip install beautifulsoup4
