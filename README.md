@@ -1,6 +1,6 @@
 # Cloud Academy Course Downloader
 
-This is a utiiliy build by @Syed-Zain-Ul-Hassan using Python, Selenium and Tkinter. 
+This is a utility built by @Syed-Zain-Ul-Hassan using Python, Selenium and Tkinter. 
 
 # How to Use
 You need to download this python module and should have all the libraries mentioned in requirements.txt file.
